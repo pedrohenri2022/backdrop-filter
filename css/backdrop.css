@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#backdrop {
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 120px;
+    width: 800px;
+    height: 600px;
+}
+
+/*-----------------------Backdrop-blur----------------------------*/
+
+.blur {
+    background-image: url("img/homem-aranha.jpg");
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-brightness----------------------------*/
+
+.brightness {
+    background-image: url("img/darth.jpg");
+}
+
+.backdrop-brightness {
+    backdrop-filter: brightness(30%);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-contrast----------------------------*/
+
+.contrast {
+    background-image: url("img/venom.jpg");
+}
+
+.backdrop-contrast {
+    backdrop-filter: contrast(20%);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-drop-shadow----------------------------*/
+
+.drop-shadow {
+    background-image: url("img/kung-fu-panda-3.jpg");
+}
+
+.backdrop-drop-shadow {
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-grayscale----------------------------*/
+
+.grayscale {
+    background-image: url("img/velozes.jpg");
+
+}
+
+.backdrop-grayscale {
+    backdrop-filter: grayscale(80%);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-hue-rotate----------------------------*/
+
+.hue-rotate {
+    background-image: url("img/batman-o-cavaleiro-das-trevas.jpg");
+}
+
+.backdrop-hue-rotate {
+    backdrop-filter: hue-rotate(50deg);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-invert----------------------------*/
+
+.invert {
+    background-image: url("img/guardians.jpg");
+}
+
+.backdrop-invert {
+    backdrop-filter: invert(70%);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-opacity----------------------------*/
+
+.opacity {
+    background-image: url("img/doctorStrange.jpg");
+}
+
+.backdrop-opacity {
+    backdrop-filter: opacity(50px);
+    padding: 10px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-sepia----------------------------*/
+
+.sepia {
+    background-image: url("img/mario.jpg");
+}
+
+.backdrop-sepia {
+    backdrop-filter: sepia(70%);
+    padding: 20px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+/*-----------------------Backdrop-saturate----------------------------*/
+
+.saturate {
+    background-image: url("img/pantera-negra.jpg");
+}
+
+.backdrop-saturate {
+    backdrop-filter: saturate(80%);
+    padding: 20px;
+    border: 1px solid white;
+    padding: 80px;
+}
+
